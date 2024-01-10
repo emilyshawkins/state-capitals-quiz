@@ -1,0 +1,45 @@
+
+#title {
+    font-family: 'Playfair Display';
+    font-size: 60px;
+    font-weight: 800px;
+}
+
+#question-points {
+    background-color: #FFEAEA;
+    text-align: center;
+    padding: 25px 300px;
+    border: 0;
+    border-radius: 25px;
+    margin: 0;
+}
+
+.text {
+    font-family: 'Space Mono';
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#options {
+    margin: 25px 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+.option {
+    margin: 15px;
+    background-color: #FFEAEA;
+    border: 0;
+    border-radius: 25px;
+    width: 200px;
+    height: 75px;
+}
+
+.option:hover {
+    background-color: #e69494;
+}
